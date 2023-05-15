@@ -1,0 +1,145 @@
+.multi-step-form {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 570px;
+    background-image: url('./bg-sidebar-desktop.svg');
+    background-size: cover;
+    background-repeat: none;
+    border-radius: 15px;
+    margin: 15px 0 15px 15px;
+}
+
+.sidebar ul {
+    padding: 2px 0 0 30px;
+}
+
+.sidebar-steps {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    margin: 10px 0 0 0;
+}
+
+.sidebar-steps p {
+    font-family: "Ubuntu";
+}
+
+.sidebar-step-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    /* background-color: #BADEF2; */
+    border-radius:50%;
+    color: #F1F0FF;
+    border: solid #F1F0FF 1px;
+    margin-top: 0px;
+}
+
+.sidebar-step-text-container {
+    margin-left: 16px;
+}
+
+.sidebar-step-text-container p {
+    margin: 5px 0 5px 0;
+    text-transform: uppercase;
+}
+
+.sidebar-step-text-step {
+    color: #A7A3FF;
+    letter-spacing: 0rem;
+    font-size: calc(12.5rem/16);
+}
+
+.sidebar-step-text-text {
+    color: #F1F0FF;
+    font-weight: bold;
+    letter-spacing: .05rem;
+    font-size: calc(14rem/16);
+}
+
+/* //////////////STEP1/////////////////// */
+
+.step1-container {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 450px;
+    height: 540px;
+    margin-left: 80px;
+}
+
+.step1-title {
+    font-size: calc(35rem/16);
+    margin: 30px 0 0 0;
+    color: #012C5C;
+}
+
+.step1-text {
+    font-size: calc(15rem/16);
+    color: #B8B9C1;
+    margin: 12px 0 15px 0;
+}
+
+.step1-inputs p {
+    color: #3F4E67;
+    font-size: calc(15.5rem/16);
+    margin: 15px 0 8px 0;
+}
+
+.step1-inputs input {
+    width: 440px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid lightgray 1px;
+    padding-left: 16px;
+    color: #012C5C;
+    font-weight: bold;
+}
+
+.step1-inputs input:focus {
+    outline: 1px solid #8080ff;
+}
+
+.step1-inputs input::placeholder {
+    position: absolute;
+    left: 17px;
+    top: 13px;
+    font-size: calc(14.5rem/16);
+    font-family: "Ubuntu";
+    color: hsl(231, 11%, 63%);
+}
+
+.step1-inputs-container {
+    margin-top: 8px;
+}
+
+.step1-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.step1-btn {
+    align-self: flex-end;
+    width: 120px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: calc(16rem/16);
+    color: white;
+    background-color: #012C5C;
+    font-family: "Ubuntu";
+    margin: 90px 4px 0 0;
+    cursor: pointer;
+}
